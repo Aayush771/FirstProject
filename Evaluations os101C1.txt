@@ -52,5 +52,10 @@ HTTP does not require any certificates and HTTPS needs SSL Certificates
 HTTP speed is faster than HTTPS and HTTPS speed is slower than HTTP
 HTTP does not improve search ranking while HTTPS improves search ranking.
 HTTP does not use data hashtags to secure data, while HTTPS will have the data before sending it and return it to its original state on the receiver side.
+Difference between HTTP and HTTPS.
 
+HTTP does not require any certificates and HTTPS needs SSL Certificates
+HTTP speed is faster than HTTPS and HTTPS speed is slower than HTTP
+HTTP does not improve search ranking while HTTPS improves search ranking.
+HTTP does not use data hashtags to secure data, while HTTPS will have the data before sending it and return it to its original state on the receiver side.
 
