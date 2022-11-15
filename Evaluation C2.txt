@@ -93,3 +93,20 @@ registered bean class  by using either
 byName approach or by using byType approach, and if found then the container will inject
 that Spring bean object to this reference field.
 If not found any registered bean, then the container will throw an exception.
+
+
+1--> SOAP Based Webservices  
+SOAP stands for Simple Object Access Protocol. It is a XML-based protocol for accessing web services. 
+SOAP web services can be written in any programming language and executed in any platform.
+
+1-->Restful Web Services
+RESTful Web Services are basically rest Architecture based Web Services. In REST Architecture everything is a resource. RESTful web services are light weight, highly scalable and maintainable and are very commonly used to create APIs for web-based applications.
+It does not define the standard message exchange format. We can build REST services with both XML and JSON. JSON is the
+more popular format with REST. The key abstraction is a resource in REST. A resource can be anything. It can be accessed
+through a Uniform Resource Identifier (URI).
+RESTful web services are platform-independent.
+It can be written in any programming language and can be executed on any platform.
+It provides different data formats like JSON, text, HTML, and XML.
+It is fast in comparison to soap because there is no strict specification like soap.
+These are reusable.
+They are language neutral.
