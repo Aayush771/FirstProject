@@ -1,0 +1,95 @@
+Q2
+a) What are the advantages of using spring boot over spring
+b) Explain types of Bean Scopes and Explain any two of them.
+
+
+a-->
+Spring:--> Spring Framework is the most popular application development framework of Java. The main feature of the Spring
+Framework is dependency Injection or Inversion of Control. 
+
+Spring Boot:--> Spring Boot is a Part  of Spring Framework. It allows us to build a  application with minimal or zero configurations.
+Advantage of Spring Boot over Spring-->
+
+Spring Boot Framework is widely used to develop REST
+APIs.
+
+It aims to shorten the code length and provide the easiest way to develop Web Applications .
+
+The main feature of Spring Boot is Autoconfiguration .
+It automatically configures the classes based on the requirement.
+
+It helps to create a   application with less configuration.
+
+It reduces  boilerplate code.
+
+spring Boot offers embedded server  such as Tomcat 
+
+Spring Boot comes with the  in pom.xml
+file that internally takes care of downloading the
+dependencies JARs  based on Spring Boot Requirement.
+
+
+b--> There are four types of Bean Scopes 
+
+1. singleton scope 
+2. prototype scope
+3. request scope
+4. session scope
+
+
+Singleton scope : it returns same bean class object for all the getBean() method call with the same bean id. i.e
+whenever we are pulling an object with the same id multiple time ,container will return same object.
+
+Prototype scope : It returns a separate bean class object for every getBean() method call even with the same id also.
+
+
+
+
+
+Q3 What are
+1. SOAP-based Webservices
+2. Restful Web Services
+Explain.
+
+
+
+1--> SOAP Based Webservices  
+SOAP stands for Simple Object Access Protocol. It is a XML-based protocol for accessing web services. 
+SOAP web services can be written in any programming language and executed in any platform.
+
+1-->Restful Web Services
+RESTful Web Services are basically rest Architecture based Web Services. In REST Architecture everything is a resource. RESTful web services are light weight, highly scalable and maintainable and are very commonly used to create APIs for web-based applications.
+It does not define the standard message exchange format. We can build REST services with both XML and JSON. JSON is the
+more popular format with REST. The key abstraction is a resource in REST. A resource can be anything. It can be accessed
+through a Uniform Resource Identifier (URI).
+RESTful web services are platform-independent.
+It can be written in any programming language and can be executed on any platform.
+It provides different data formats like JSON, text, HTML, and XML.
+It is fast in comparison to soap because there is no strict specification like soap.
+These are reusable.
+They are language neutral.
+
+
+
+
+
+Q4 a) What is difference between @RestController and @Controller
+b) What is the use of @Autowired annotation?Explain
+
+
+a-->The @RestController annotation in Spring Boot is nothing but a combination of the @Controller and the @ResponseBody annotation.  The job of the @Controller is to create a Map of model object and find a view but the @RestController simply returns the object and object data is directly written into HTTP response as JSON or XML.
+
+
+b--->Use of  @Autowired Annotation
+
+This annotation we can apply on the fields/variable or the setter method or on the
+constructor of a spring bean.
+The variable on which we apply the @Autowired annotation must be a reference type
+variable. not the primitive variable.
+If we apply @Autowired annotation on the top of the reference variable then no need to
+explicitly define the setter method at runtime container implicitly defines the setter method for that field.
+If we apply this @Autowire annotation on the reference field, then the container will search the
+registered bean class  by using either
+byName approach or by using byType approach, and if found then the container will inject
+that Spring bean object to this reference field.
+If not found any registered bean, then the container will throw an exception.
