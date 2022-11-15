@@ -1,1 +1,1 @@
-# FirstProject by using Git 
+# FirstProject by using Git and Git Bash
